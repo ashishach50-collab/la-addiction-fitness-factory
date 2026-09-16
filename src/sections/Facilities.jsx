@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Dumbbell, Users, Waves, Yoga, Zap, Sparkles } from 'lucide-react'
+import { Dumbbell, Users, Waves, HeartPulse, Zap, Sparkles } from 'lucide-react'
 
 export default function Facilities() {
   const facilities = [
@@ -22,7 +22,7 @@ export default function Facilities() {
       emoji: '🏊'
     },
     {
-      icon: Yoga,
+      icon: HeartPulse,
       title: 'Yoga Classes',
       description: 'Dedicated yoga sessions for flexibility, balance and wellness.',
       emoji: '🧘'
